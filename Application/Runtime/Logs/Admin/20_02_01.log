@@ -1,0 +1,85 @@
+[ 2020-02-01T11:05:40+08:00 ] 127.0.0.1 /Admin/Goods/testSql
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001772s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005237s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0296s ]
+ERR: 1055:Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'jxshop.jx_goods_cate.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQL语句 ] : SELECT * FROM `jx_goods_cate` WHERE ( cate_id in (2,4,6,8,3,1) ) GROUP BY goods_id 
+ERR: 1055:Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'jxshop.jx_goods_cate.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQL语句 ] : SELECT * FROM `jx_goods_cate` WHERE ( cate_id in (2,4,6,8,3,1) ) GROUP BY goods_id 
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Db\Driver.class.php:170) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Db\Driver.class.php:170) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-01T11:09:47+08:00 ] 127.0.0.1 /Admin/Goods/testSql
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000405s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005515s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `jx_goods_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jx_goods_cate` WHERE `id` = 0 GROUP BY goods_id  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006446s ]
+
+[ 2020-02-01T12:22:57+08:00 ] 127.0.0.1 /admin/category/testShow
+ERR: 非法操作:testShow
+
+[ 2020-02-01T12:23:05+08:00 ] 127.0.0.1 /admin/Goods/testShow
+ERR: 非法操作:testShow
+
+[ 2020-02-01T12:25:20+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2/cat_id/0/intro_type/is_rec/is_sale/1.html?cate_id=1&intro_type=is_rec&is_sale=1&keyword=
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( isdel = 0 AND (cate_id in (2,4,6,8,3,1) OR id in (Array)) AND is_rec = 1 AND is_sale = 1 ) LIMIT 3,3  
+
+[ 2020-02-01T12:31:06+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2/cat_id/0/intro_type/is_rec/is_sale/1/cate_id/1.html?cate_id=8&intro_type=is_rec&is_sale=2&keyword=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')) AND is_rec = 1 AND is_sale = 0 ) LIMIT 3,3' at line 1
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( isdel = 0 AND (cate_id in (8) OR id in ()) AND is_rec = 1 AND is_sale = 0 ) LIMIT 3,3  
+
+[ 2020-02-01T12:35:17+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2/cat_id/0/intro_type/is_rec/is_sale/1/cate_id/1.html?cate_id=9&intro_type=is_rec&is_sale=2&keyword=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')) AND is_rec = 1 AND is_sale = 0 ) LIMIT 3,3' at line 1
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( isdel = 0 AND (cate_id in (9) OR id in ()) AND is_rec = 1 AND is_sale = 0 ) LIMIT 3,3  
+
+[ 2020-02-01T12:40:15+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2/cat_id/0/intro_type/is_rec/is_sale/1/cate_id/1.html?cate_id=9&intro_type=is_rec&is_sale=2&keyword=
+ERR: syntax error, unexpected 'if' (T_IF)
+
+[ 2020-02-01T12:40:34+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2/cat_id/0/intro_type/is_rec/is_sale/1/cate_id/1.html?cate_id=9&intro_type=is_rec&is_sale=2&keyword=
+ERR: syntax error, unexpected 'if' (T_IF)
+
+[ 2020-02-01T12:40:45+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2/cat_id/0/intro_type/is_rec/is_sale/1/cate_id/1.html?cate_id=9&intro_type=is_rec&is_sale=2&keyword=
+ERR: syntax error, unexpected 'if' (T_IF)
+
+[ 2020-02-01T12:40:46+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2/cat_id/0/intro_type/is_rec/is_sale/1/cate_id/1.html?cate_id=9&intro_type=is_rec&is_sale=2&keyword=
+ERR: syntax error, unexpected 'if' (T_IF)
+
+[ 2020-02-01T12:41:11+08:00 ] 127.0.0.1 /Admin/Goods/index/p/2/cat_id/0/intro_type/is_rec/is_sale/1/cate_id/1.html?cate_id=9&intro_type=is_rec&is_sale=2&keyword=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')) AND is_rec = 1 AND is_sale = 0 ) LIMIT 3,3' at line 1
+ [ SQL语句 ] : SELECT * FROM `jx_goods` WHERE ( isdel = 0 AND (cate_id in (9) OR id in ()) AND is_rec = 1 AND is_sale = 0 ) LIMIT 3,3  
+
+[ 2020-02-01T13:16:54+08:00 ] 127.0.0.1 /Admin/Goods/dels/id/1.html
+ERR: Call to a member function error() on null
+
+[ 2020-02-01T13:20:28+08:00 ] 127.0.0.1 /Admin/Goods/index.html?cate_id=1&intro_type=is_rec&is_sale=1&keyword=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (cate_id in (2,4,6,8,3,1) OR id in (6,7)) AND is_rec = 1 AND is_sale = 1 ) L' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE (  AND (cate_id in (2,4,6,8,3,1) OR id in (6,7)) AND is_rec = 1 AND is_sale = 1 ) LIMIT 1  
+
+[ 2020-02-01T13:20:45+08:00 ] 127.0.0.1 /Admin/Goods/index.html?cate_id=1&intro_type=is_rec&is_sale=1&keyword=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (cate_id in (2,4,6,8,3,1) OR id in (6,7)) AND is_rec = 1 AND is_sale = 1 ) L' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE (  AND (cate_id in (2,4,6,8,3,1) OR id in (6,7)) AND is_rec = 1 AND is_sale = 1 ) LIMIT 1  
+
+[ 2020-02-01T13:20:51+08:00 ] 127.0.0.1 /Admin/Goods/index.html?cate_id=1&intro_type=is_rec&is_sale=1&keyword=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (cate_id in (2,4,6,8,3,1) OR id in (6,7)) AND is_rec = 1 AND is_sale = 1 ) L' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jx_goods` WHERE (   AND (cate_id in (2,4,6,8,3,1) OR id in (6,7)) AND is_rec = 1 AND is_sale = 1 ) LIMIT 1  
+
+[ 2020-02-01T13:30:13+08:00 ] 127.0.0.1 /Admin/Goods/edit/id/1.html
+ERR: syntax error, unexpected ';'
+
+[ 2020-02-01T13:58:19+08:00 ] 127.0.0.1 /Admin/Goods/edit/id/6.html
+ERR: syntax error, unexpected ';', expecting ')'
+

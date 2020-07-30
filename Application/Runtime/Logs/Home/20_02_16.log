@@ -1,0 +1,76 @@
+[ 2020-02-16T14:16:50+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/style/base.css
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:16:50+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/style/bottomnav.css
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:16:50+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/style/index.css
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:16:50+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/style/global.css
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:16:50+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/js/jquery-1.8.3.min.js
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:16:50+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/style/header.css
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:16:50+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/style/footer.css
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:16:50+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/js/index.js
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:16:50+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/js/header.js
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:16:51+08:00 ] 127.0.0.1 /__PUBLIC_HOME__/js/index.js
+ERR: 无法加载控制器:__PUBLIC_HOME__
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/style/base.css
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/style/header.css
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/style/global.css
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/style/bottomnav.css
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/style/index.css
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/style/footer.css
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/js/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/js/header.js
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T14:18:48+08:00 ] 127.0.0.1 /Public/Home/js/index.js
+ERR: 无法加载控制器:Public
+
+[ 2020-02-16T16:13:56+08:00 ] 127.0.0.1 /
+ERR: 1146:Table 'jxshop_official.jx_admin\_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jx_admin\_goods`
+
+[ 2020-02-16T16:35:44+08:00 ] 127.0.0.1 /Goods/index/goods_id/53.html
+ERR: 无法加载控制器:Goods
+
+[ 2020-02-16T16:51:51+08:00 ] 127.0.0.1 /Goods/index/goods_id/53.html
+ERR: syntax error, unexpected '$goods_id' (T_VARIABLE), expecting ')'
+
+[ 2020-02-16T17:22:09+08:00 ] 127.0.0.1 /Goods/index/goods_id/53.html
+ERR: Call to undefined function getlastsql()
+
+[ 2020-02-16T17:24:47+08:00 ] 127.0.0.1 /Goods/index/goods_id/53.html
+ERR: Call to undefined function getlastsql()
+

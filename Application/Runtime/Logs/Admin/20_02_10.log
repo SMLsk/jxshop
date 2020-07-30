@@ -1,0 +1,544 @@
+[ 2020-02-10T10:31:11+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004036s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0024s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0169s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003974s ]
+
+[ 2020-02-10T10:57:29+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003643s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0024s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000988s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001998s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004306s ]
+
+[ 2020-02-10T11:00:24+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003352s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0026s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0078s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000698s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001592s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002891s ]
+
+[ 2020-02-10T11:55:45+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003400s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000817s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001988s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003503s ]
+
+[ 2020-02-10T12:08:01+08:00 ] 127.0.0.1 /Admin/Goods/add
+ERR: Too few arguments to function Think\Model::addAll(), 0 passed in C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Model\GoodsModel.class.php on line 70 and at least 1 expected
+
+[ 2020-02-10T12:08:44+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003317s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0019s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000747s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003111s ]
+
+[ 2020-02-10T12:09:21+08:00 ] 127.0.0.1 /Admin/Goods/add
+ERR: 1048:Column 'attr_values' cannot be null
+ [ SQL语句 ] : INSERT INTO `jx_goods_attr` (`goods_id`,`attr_id`,`attr_values`) VALUES ('14','5',NULL),('14','7',NULL),('14','8',NULL),('14','9',NULL),('14','10',NULL),('14','10',NULL)
+
+[ 2020-02-10T12:13:18+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004125s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0028s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000833s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003811s ]
+
+[ 2020-02-10T12:13:22+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005098s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0031s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000788s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002672s ]
+
+[ 2020-02-10T12:13:41+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004338s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0024s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000997s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003181s ]
+
+[ 2020-02-10T12:13:43+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003666s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0017s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0108s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002912s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003939s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002756s ]
+
+[ 2020-02-10T12:14:12+08:00 ] 127.0.0.1 /Admin/Goods/add
+ERR: 1048:Column 'attr_values' cannot be null
+ [ SQL语句 ] : INSERT INTO `jx_goods_attr` (`goods_id`,`attr_id`,`attr_values`) VALUES ('18','5',NULL),('18','7',NULL),('18','8',NULL),('18','9',NULL),('18','10',NULL),('18','10',NULL)
+
+[ 2020-02-10T12:37:04+08:00 ] 127.0.0.1 /Admin/Goods/edit/id/19.html
+ERR: 1054:Unknown column '' in 'field list'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,``,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  
+
+[ 2020-02-10T12:40:41+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003437s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0027s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000862s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003158s ]
+
+[ 2020-02-10T12:40:43+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003566s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0020s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000684s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003098s ]
+
+[ 2020-02-10T12:44:08+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004513s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0016s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000686s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001721s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003393s ]
+
+[ 2020-02-10T12:46:41+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008498s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0035s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=4 )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001685s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003861s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007880s ]
+
+[ 2020-02-10T12:46:44+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010647s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0038s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001734s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006702s ]
+
+[ 2020-02-10T12:46:47+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009444s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0035s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001809s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004019s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006602s ]
+
+[ 2020-02-10T12:52:54+08:00 ] 127.0.0.1 /Admin/Goods/edit/id/20.html
+ERR: 1054:Unknown column 'b.goods_id' in 'on clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type,b.attr_input_type,b.attr_value FROM jx_goods_attr a left join jx_attribute b on b.goods_id=20  
+
+[ 2020-02-10T12:54:50+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011182s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0046s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004425s ]
+
+[ 2020-02-10T12:54:53+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009020s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0033s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003893s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004188s ]
+
+[ 2020-02-10T13:05:18+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010935s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0044s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=4 )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001745s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005701s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018589s ]
+
+[ 2020-02-10T13:05:21+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006163s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0039s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001505s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004059s ]
+
+[ 2020-02-10T13:09:32+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011711s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0039s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002698s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004085s ]
+
+[ 2020-02-10T13:09:34+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008271s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0054s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001729s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003915s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006334s ]
+
+[ 2020-02-10T13:12:18+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010234s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0037s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006791s ]
+
+[ 2020-02-10T13:12:21+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014074s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0044s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=4 )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001533s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005935s ]
+
+[ 2020-02-10T13:21:12+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008186s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001750s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008063s ]
+
+[ 2020-02-10T13:24:40+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012701s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0054s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001762s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006623s ]
+

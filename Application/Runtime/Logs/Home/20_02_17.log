@@ -1,0 +1,42 @@
+[ 2020-02-17T14:29:18+08:00 ] 127.0.0.1 /top.html
+ERR: 无法加载控制器:Top
+
+[ 2020-02-17T14:29:18+08:00 ] 127.0.0.1 /menu.html
+ERR: 无法加载控制器:Menu
+
+[ 2020-02-17T14:29:18+08:00 ] 127.0.0.1 /main.html
+ERR: 无法加载控制器:Main
+
+[ 2020-02-17T16:27:52+08:00 ] 127.0.0.1 /
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2020-02-17T16:40:50+08:00 ] 127.0.0.1 /
+ERR: syntax error, unexpected '}', expecting ';'
+
+[ 2020-02-17T16:49:57+08:00 ] 127.0.0.1 /regist
+ERR: 无法加载控制器:Regist
+
+[ 2020-02-17T16:50:05+08:00 ] 127.0.0.1 /regist/regist
+ERR: 无法加载控制器:Regist
+
+[ 2020-02-17T16:50:17+08:00 ] 127.0.0.1 /Usert/regist
+ERR: 无法加载控制器:Usert
+
+[ 2020-02-17T16:50:25+08:00 ] 127.0.0.1 /Public/Home/js/jquery.form.js
+ERR: 无法加载控制器:Public
+
+[ 2020-02-17T16:50:25+08:00 ] 127.0.0.1 /Public/Home/layer/layer.js
+ERR: 无法加载控制器:Public
+
+[ 2020-02-17T16:50:25+08:00 ] 127.0.0.1 /User/code.html
+ERR: 非法操作:code
+
+[ 2020-02-17T16:51:20+08:00 ] 127.0.0.1 /Public/Home/js/jquery.form.js
+ERR: 无法加载控制器:Public
+
+[ 2020-02-17T16:51:20+08:00 ] 127.0.0.1 /Public/Home/layer/layer.js
+ERR: 无法加载控制器:Public
+
+[ 2020-02-17T16:51:20+08:00 ] 127.0.0.1 /User/code.html
+ERR: 非法操作:code
+

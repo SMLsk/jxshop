@@ -1,0 +1,313 @@
+[ 2020-02-21T16:40:53+08:00 ] 127.0.0.1 /Common/test
+ERR: 非法操作:test
+
+[ 2020-02-21T21:29:16+08:00 ] 127.0.0.1 /Cart/dels/goods_id/53/goods_attr_ids/164%2C168.html
+ERR: 1241:Operand should contain 1 column(s)
+ [ SQL语句 ] : DELETE FROM `jx_cart` WHERE ( user_id=10 and goods_id=53 and goods_attr_ids=164,168 )
+
+[ 2020-02-21T21:30:29+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:29+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003494s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:30+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003606s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:30+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003611s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:30+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0008s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:30+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003358s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:31+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003307s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0006s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:31+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003442s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0008s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:31+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003419s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:31+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003840s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0012s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:30:31+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003845s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0008s ]
+ERR: 非法操作:updateCount
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Common\functions.php:102) C:\Myeven\Apache24\htdocs\jxshop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2020-02-21T21:47:31+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003631s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002672s ]
+
+[ 2020-02-21T21:47:47+08:00 ] 127.0.0.1 /Order/check.html
+ERR: 无法加载控制器:Order
+
+[ 2020-02-21T21:48:15+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003853s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002879s ]
+
+[ 2020-02-21T21:48:15+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004728s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004440s ]
+
+[ 2020-02-21T21:48:16+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003656s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003006s ]
+
+[ 2020-02-21T21:48:16+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004208s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004294s ]
+
+[ 2020-02-21T21:49:07+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004186s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+
+[ 2020-02-21T21:49:08+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004491s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+
+[ 2020-02-21T21:49:08+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003748s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+
+[ 2020-02-21T21:49:08+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003665s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0016s ]
+
+[ 2020-02-21T21:54:34+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003908s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003260s ]
+
+[ 2020-02-21T21:54:35+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003317s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003255s ]
+
+[ 2020-02-21T21:54:35+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004464s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003876s ]
+
+[ 2020-02-21T21:54:36+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003791s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003251s ]
+
+[ 2020-02-21T21:54:36+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004437s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003241s ]
+
+[ 2020-02-21T21:54:36+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003655s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003012s ]
+
+[ 2020-02-21T21:54:36+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003509s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003688s ]
+
+[ 2020-02-21T21:54:36+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003312s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003133s ]
+
+[ 2020-02-21T21:54:36+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003342s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002709s ]
+
+[ 2020-02-21T21:54:37+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003647s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002892s ]
+
+[ 2020-02-21T21:54:37+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006485s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003009s ]
+
+[ 2020-02-21T21:54:37+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003464s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002646s ]
+
+[ 2020-02-21T21:55:22+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003521s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003175s ]
+
+[ 2020-02-21T21:55:23+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003406s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002695s ]
+
+[ 2020-02-21T21:55:23+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002692s ]
+

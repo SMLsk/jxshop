@@ -1,0 +1,85 @@
+[ 2020-02-07T16:41:32+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T16:41:32+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T16:41:32+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T19:01:55+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T19:01:55+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T19:01:55+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T22:13:24+08:00 ] 127.0.0.1 /Admin/Common/test
+ERR: syntax error, unexpected '}'
+
+[ 2020-02-07T22:15:11+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2020-02-07T22:15:52+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2020-02-07T22:16:34+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2020-02-07T22:16:35+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2020-02-07T22:17:05+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2020-02-07T22:22:42+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+
+[ 2020-02-07T22:28:48+08:00 ] 127.0.0.1 /Admin/Role
+ERR: syntax error, unexpected 'parent' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2020-02-07T22:33:04+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,2,5,6,4,7 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `jx_rule` WHERE ( id in 1,2,5,6,4,7 ) 
+
+[ 2020-02-07T23:15:29+08:00 ] 127.0.0.1 /Admin/Category/add.html
+ERR: Think\Model:getCateTree方法不存在！
+
+[ 2020-02-07T23:17:12+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:17:12+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:17:12+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:18:14+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:18:14+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:18:14+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:19:15+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:19:15+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:19:16+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:21:25+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:21:25+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-07T23:21:25+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+

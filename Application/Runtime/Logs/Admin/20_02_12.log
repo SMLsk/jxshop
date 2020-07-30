@@ -1,0 +1,11 @@
+[ 2020-02-12T12:15:47+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009088s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0074s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=3 ) [ RunTime:0.0255s ]
+

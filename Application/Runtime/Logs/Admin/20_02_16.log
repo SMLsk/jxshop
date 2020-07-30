@@ -1,0 +1,326 @@
+[ 2020-02-16T11:29:19+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-16T11:29:19+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-16T11:29:19+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-16T12:22:48+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023142s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0024s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002761s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005500s ]
+
+[ 2020-02-16T12:27:12+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008680s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0034s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001845s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010200s ]
+
+[ 2020-02-16T12:43:17+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007649s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0022s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0012s ]
+
+[ 2020-02-16T12:43:19+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009797s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0058s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=2 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001928s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009273s ]
+
+[ 2020-02-16T12:59:23+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/id/2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `jx_goods_number` WHERE ( goods_id= )
+
+[ 2020-02-16T13:39:25+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008056s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0041s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=4 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001743s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006544s ]
+
+[ 2020-02-16T13:56:05+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/id/3.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `jx_goods` SET `goods_number`='3' WHERE ( id= )
+
+[ 2020-02-16T14:04:10+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/id/2.html
+ERR: 1048:Column 'goods_number' cannot be null
+ [ SQL语句 ] : UPDATE `jx_goods` SET `goods_number`=NULL WHERE ( id=2 )
+
+[ 2020-02-16T14:04:57+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/id/2.html
+ERR: 1048:Column 'goods_number' cannot be null
+ [ SQL语句 ] : UPDATE `jx_goods` SET `goods_number`=NULL WHERE ( id=2 )
+
+[ 2020-02-16T14:05:14+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/id/2.html
+ERR: 1048:Column 'goods_number' cannot be null
+ [ SQL语句 ] : UPDATE `jx_goods` SET `goods_number`=NULL WHERE ( id=2 )
+
+[ 2020-02-16T14:52:50+08:00 ] 127.0.0.1 /Admin/Common/test
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `jx_role_rule` WHERE ( role_id= ) 
+
+[ 2020-02-16T14:55:19+08:00 ] 127.0.0.1 /Admin/Login/
+ERR: 非法操作:index
+
+[ 2020-02-16T15:00:42+08:00 ] 127.0.0.1 /Admin/Login/login
+ERR: 1054:Unknown column 'last_visit' in 'field list'
+ [ SQL语句 ] : UPDATE `jx_admin` SET `username`='用户1',`password`='e10adc3949ba59abbe56e057f20f883e',`last_visit`='1581836442' WHERE `id` = '2'
+
+[ 2020-02-16T15:02:38+08:00 ] 127.0.0.1 /Admin/Login/login
+ERR: 1054:Unknown column 'last_visit' in 'field list'
+ [ SQL语句 ] : UPDATE `jx_admin` SET `username`='用户1',`password`='e10adc3949ba59abbe56e057f20f883e',`last_visit`='1581836558' WHERE `id` = '2'
+
+[ 2020-02-16T15:04:09+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `jx_rule` WHERE ( id in () ) 
+
+[ 2020-02-16T15:06:39+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-16T15:06:40+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-16T15:06:40+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-16T15:12:35+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-16T15:12:35+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-16T15:12:35+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-16T15:15:18+08:00 ] 127.0.0.1 /Admin/Goods/setNumber/id/53.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `jx_goods_number` WHERE ( goods_id= )
+
+[ 2020-02-16T16:25:25+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004811s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0031s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/597415b319bcd.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_597415b319bcd.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=6 ) [ RunTime:0.0340s ]
+
+[ 2020-02-16T16:25:26+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004319s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0018s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0057s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/597415b31ab47.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_597415b31ab47.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=7 ) [ RunTime:0.0083s ]
+
+[ 2020-02-16T16:25:49+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003531s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0027s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/597415fa9d4f5.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_597415fa9d4f5.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=8 ) [ RunTime:0.0486s ]
+
+[ 2020-02-16T16:25:49+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004287s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0019s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/597415fa9e4d8.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_597415fa9e4d8.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=9 ) [ RunTime:0.0037s ]
+
+[ 2020-02-16T16:25:50+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003482s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0017s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/597415fa9f50b.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_597415fa9f50b.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=10 ) [ RunTime:0.0036s ]
+
+[ 2020-02-16T16:25:50+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003666s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0019s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/597415faa039a.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_597415faa039a.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=11 ) [ RunTime:0.0068s ]
+
+[ 2020-02-16T16:25:50+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005614s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0040s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/597415faa11d1.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_597415faa11d1.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=12 ) [ RunTime:0.0049s ]
+
+[ 2020-02-16T16:26:17+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004570s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0019s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/5974163c8dd1e.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_5974163c8dd1e.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=13 ) [ RunTime:0.0350s ]
+
+[ 2020-02-16T16:26:18+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003601s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0026s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/5974163c8ed09.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_5974163c8ed09.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=14 ) [ RunTime:0.0080s ]
+
+[ 2020-02-16T16:26:38+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004764s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0021s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/5974166b6ab25.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_5974166b6ab25.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=15 ) [ RunTime:0.0214s ]
+
+[ 2020-02-16T16:26:38+08:00 ] 127.0.0.1 /Admin/Goods/delImg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003725s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0021s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] unlink(Uploads/2017-07-23/5974166b6ba48.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 162 行.
+NOTIC: [2] unlink(Uploads/2017-07-23/thumb_5974166b6ba48.jpg): No such file or directory C:\Myeven\Apache24\htdocs\jxshop\Application\Admin\Controller\GoodsController.class.php 第 163 行.
+SQL: DELETE FROM `jx_goods_img` WHERE ( id=16 ) [ RunTime:0.0068s ]
+
+[ 2020-02-16T16:27:18+08:00 ] 127.0.0.1 /Admin/Goods/showAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004123s ]
+SQL: SHOW COLUMNS FROM `jx_admin_role` [ RunTime:0.0021s ]
+SQL: SELECT `role_id` FROM `jx_admin_role` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jx_rule`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jx_attribute` WHERE ( type_id=3 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003822s ]
+

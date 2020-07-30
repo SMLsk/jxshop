@@ -1,0 +1,90 @@
+[ 2020-02-08T00:03:33+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T00:03:33+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T00:03:33+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T00:03:35+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T00:03:35+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T00:03:35+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T00:04:51+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T00:04:51+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T00:04:51+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T12:41:33+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T12:41:33+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T12:41:33+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T12:41:47+08:00 ] 127.0.0.1 /Admin/Type/index
+ERR: Think\Model:listData方法不存在！
+
+[ 2020-02-08T13:14:31+08:00 ] 127.0.0.1 /Admin/Type/index.html
+ERR: syntax error, unexpected '}', expecting '('
+
+[ 2020-02-08T13:44:33+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T13:44:33+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T13:44:33+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T14:41:45+08:00 ] 127.0.0.1 /Admin/Attribute/edit/attr_id/1.html
+ERR: syntax error, unexpected ')'
+
+[ 2020-02-08T14:54:59+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T14:54:59+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T14:54:59+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2020-02-08T15:00:55+08:00 ] 127.0.0.1 /Admin/Attribute/test
+ERR: Think\Controller:success方法不存在！
+
+[ 2020-02-08T15:01:40+08:00 ] 127.0.0.1 /Admin/Attribute/test
+ERR: 模板不存在:../Application/Admin/View/Attribute/test.html
+
+[ 2020-02-08T15:02:25+08:00 ] 127.0.0.1 /Admin/Attribute/test
+ERR: Think\Controller:display方法不存在！
+
+[ 2020-02-08T15:05:49+08:00 ] 127.0.0.1 /Admin/Attribute/index/p/2.html
+ERR: syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+
+[ 2020-02-08T15:06:56+08:00 ] 127.0.0.1 /Admin/Attribute/index/p/2.html
+ERR: syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+
+[ 2020-02-08T15:07:57+08:00 ] 127.0.0.1 /Admin/Attribute/index/p/2.html
+ERR: syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+
+[ 2020-02-08T15:08:01+08:00 ] 127.0.0.1 /Admin/Attribute/index/p/2.html
+ERR: syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+
+[ 2020-02-08T15:09:14+08:00 ] 127.0.0.1 /Admin/Attribute/index/p/2.html
+ERR: syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+
+[ 2020-02-08T15:09:16+08:00 ] 127.0.0.1 /Admin/Attribute/index/p/2.html
+ERR: syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+

@@ -1,0 +1,7 @@
+[ 2020-02-20T15:04:13+08:00 ] 127.0.0.1 /Cart/addCart.html
+ERR: 1241:Operand should contain 1 column(s)
+ [ SQL语句 ] : SELECT * FROM `jx_goods_number` WHERE ( goods_id=53 and goods_attr_ids=166,167 ) LIMIT 1  
+
+[ 2020-02-20T17:00:28+08:00 ] 127.0.0.1 /Home/User/login/u/SimonLu/p/123456
+ERR: Function name must be a string
+

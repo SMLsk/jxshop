@@ -1,0 +1,16 @@
+[ 2020-02-05T01:07:53+08:00 ] 127.0.0.1 /Admin/Admin/dels/role_id/2.html
+ERR: syntax error, unexpected 'protected' (T_PROTECTED)
+
+[ 2020-02-05T18:42:47+08:00 ] 127.0.0.1 /Admin/Admin/aindex
+ERR: 非法操作:aindex
+
+[ 2020-02-05T19:08:05+08:00 ] 127.0.0.1 /Admin/Admin/edit/admin_id/8.html
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM jx_admin a left join jx_admin_role b on b.admin_id=a.id   WHERE ( a.id=id ) 
+
+[ 2020-02-05T19:52:41+08:00 ] 127.0.0.1 /Admin/Admin/edit/admin_id/8.html
+ERR: Think\Controller:update方法不存在！
+
+[ 2020-02-05T23:24:42+08:00 ] 127.0.0.1 /Admin/Role/disfetch/role_id/7.html
+ERR: syntax error, unexpected 'fields' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+

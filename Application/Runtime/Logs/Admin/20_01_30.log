@@ -1,0 +1,58 @@
+[ 2020-01-30T00:01:15+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 闈炴硶鎿嶄綔:Js
+
+[ 2020-01-30T00:01:15+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 闈炴硶鎿嶄綔:Js
+
+[ 2020-01-30T00:01:15+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 闈炴硶鎿嶄綔:Js
+
+[ 2020-01-30T00:15:43+08:00 ] 127.0.0.1 /Admin/Category/index
+ERR: XML鏍囩璇硶閿欒 : name="vo.isrec" value=1
+
+[ 2020-01-30T00:16:18+08:00 ] 127.0.0.1 /Admin/Category/index
+ERR: XML鏍囩璇硶閿欒 : name=$vo.isrec value=1
+
+[ 2020-01-30T00:16:33+08:00 ] 127.0.0.1 /Admin/Category/index
+ERR: XML鏍囩璇硶閿欒 : name='$vo.isrec' value=1
+
+[ 2020-01-30T00:20:23+08:00 ] 127.0.0.1 /Admin/Category/index
+ERR: Call to undefined function str_repeate()
+
+[ 2020-01-30T18:51:52+08:00 ] 127.0.0.1 /Admin/Category/index
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2020-01-30T19:33:04+08:00 ] 127.0.0.1 /Admin/Category/add
+ERR: Think\Model:getCategoryTree鏂规硶涓嶅瓨鍦紒
+
+[ 2020-01-30T19:57:03+08:00 ] 127.0.0.1 /Admin/Category/edit/id/1.html
+ERR: Think\Model:findOneById鏂规硶涓嶅瓨鍦紒
+
+[ 2020-01-30T20:38:06+08:00 ] 127.0.0.1 /Admin/Category/edit/id/2.html
+ERR: XML鏍囩璇硶閿欒
+
+[ 2020-01-30T20:39:00+08:00 ] 127.0.0.1 /Admin/Category/edit/id/2.html
+ERR: XML鏍囩璇硶閿欒
+
+[ 2020-01-30T20:39:20+08:00 ] 127.0.0.1 /Admin/Category/edit/id/2.html
+ERR: XML鏍囩璇硶閿欒
+
+[ 2020-01-30T20:40:06+08:00 ] 127.0.0.1 /Admin/Category/edit/id/2.html
+ERR: XML鏍囩璇硶閿欒
+
+[ 2020-01-30T20:40:07+08:00 ] 127.0.0.1 /Admin/Category/edit/id/2.html
+ERR: XML鏍囩璇硶閿欒
+
+[ 2020-01-30T20:40:59+08:00 ] 127.0.0.1 /Admin/Category/edit/id/2.html
+ERR: XML鏍囩璇硶閿欒
+
+[ 2020-01-30T20:41:00+08:00 ] 127.0.0.1 /Admin/Category/edit/id/2.html
+ERR: XML鏍囩璇硶閿欒
+
+[ 2020-01-30T20:55:06+08:00 ] 127.0.0.1 /Admin/Category/edit/id/2.html
+ERR: syntax error, unexpected 'return' (T_RETURN)
+
+[ 2020-01-30T20:55:29+08:00 ] 127.0.0.1 /Admin/Category/edit/id/2.html
+ERR: syntax error, unexpected 'return' (T_RETURN)
+

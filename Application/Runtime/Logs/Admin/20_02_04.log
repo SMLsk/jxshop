@@ -1,0 +1,21 @@
+[ 2020-02-04T21:56:15+08:00 ] 127.0.0.1 /Admin/Admin/add
+ERR: syntax error, unexpected 'fields' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2020-02-04T22:09:04+08:00 ] 127.0.0.1 /Admin/Admin/test
+ERR: syntax error, unexpected '}'
+
+[ 2020-02-04T22:25:06+08:00 ] 127.0.0.1 /Admin/Admin/add
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `jx_admin` (`id`,`username`,`password`) VALUES ('2','宋魁是大聪明','1234')
+
+[ 2020-02-04T22:25:24+08:00 ] 127.0.0.1 /Admin/Admin/add
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `jx_admin` (`id`,`username`,`password`) VALUES ('2','宋魁是大聪明','1234')
+
+[ 2020-02-04T22:27:36+08:00 ] 127.0.0.1 /Admin/Admin/add
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `jx_admin` (`id`,`username`,`password`) VALUES ('1','沐沐是猪头','123456')
+
+[ 2020-02-04T23:30:12+08:00 ] 127.0.0.1 /Admin/Admin/index
+ERR: Call to a member function alias() on null
+
